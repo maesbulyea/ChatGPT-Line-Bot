@@ -178,7 +178,7 @@ def handle_audio_message(event):
 
 @app.route("/", methods=['GET'])
 def home():
-    return 'Hello World'
+    return '老公我睡醒了'
 
 
 if __name__ == "__main__":
